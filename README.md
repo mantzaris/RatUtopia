@@ -10,15 +10,3 @@ The core hypothesis is that as social hierarchy becomes more 'visible' (lower un
 
 ---
 
-## Requirements
-
-- Julia >= 1.9
-- Packages: `Agents`, `Distributions`, `DataFrames`, `Plots`, `Statistics`, `Measures`, `Random`  
-  *(optional for the matrix model: `CSV`)*
-
-Install from the Julia REPL:
-```julia
-using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
-```
